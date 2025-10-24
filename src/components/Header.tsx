@@ -18,10 +18,11 @@ export default function Header() {
         <div className="flex items-center justify-between">
           <div className="flex items-center">
             <img
-              src="/Design sem nome (1) copy.png"
+              src="/aurenx-logo.png"
               alt="AurenX Web"
               className="h-10 md:h-12 w-auto"
             />
+
           </div>
 
           <nav className="hidden md:flex items-center gap-8">
