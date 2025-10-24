@@ -14,7 +14,7 @@ export default function Contact() {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-6">
+        <div className="grid md:grid-cols-3 gap-6">
           <a
             href="https://wa.me/5511953695307"
             target="_blank"
@@ -56,6 +56,28 @@ export default function Contact() {
               </span>
             </div>
           </a>
+
+          <a
+            href="https://instagram.com/aurenxweb"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-white rounded-3xl shadow-xl p-8 md:p-10 border border-gray-100 hover:shadow-2xl hover:scale-105 transition-all group"
+          >
+            <div className="flex flex-col items-center text-center space-y-6">
+              <div className="w-20 h-20 bg-gradient-to-br from-[#E1306C] to-[#C13584] rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform">
+                <Instagram size={40} className="text-white" />
+              </div>
+              <div>
+                <h3 className="text-2xl font-bold text-[#2D3748] mb-3">Instagram</h3>
+                <p className="text-gray-600 text-lg">
+                  Siga-nos e envie uma mensagem no direct
+                </p>
+              </div>
+              <span className="text-[#00BCD4] font-semibold group-hover:underline">
+                Acessar perfil
+              </span>
+            </div>
+          </a>
         </div>
       </div>
     </section>
@@ -66,16 +88,7 @@ export function Footer() {
   return (
     <footer className="bg-[#2D3748] text-white py-8 px-6">
       <div className="max-w-7xl mx-auto">
-        <div className="flex flex-col items-center gap-4">
-          <a
-            href="https://instagram.com/aurenxweb"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hover:text-[#00BCD4] transition-colors"
-            aria-label="Instagram"
-          >
-            <Instagram size={28} />
-          </a>
+        <div className="flex items-center justify-center">
           <p className="text-gray-400 text-center">
             © 2025 AurenX Web — Todos os direitos reservados
           </p>
