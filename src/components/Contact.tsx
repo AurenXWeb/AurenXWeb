@@ -141,11 +141,11 @@ export function Footer() {
       <div className="max-w-7xl mx-auto">
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="flex items-center">
-            <img
-              src="/ChatGPT_Image_24_de_out._de_2025__13_42_12-removebg-preview.png"
-              alt="AurenX Web"
-              className="h-12 w-auto"
-            />
+            <span className="text-3xl md:text-4xl font-bold">
+              <span className="text-white">Auren</span>
+              <span className="text-[#00D4FF]">X</span>
+              <span className="text-[#00D4FF]">Web</span>
+            </span>
           </div>
 
           <div className="flex items-center gap-6">
