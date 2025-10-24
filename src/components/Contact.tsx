@@ -142,9 +142,9 @@ export function Footer() {
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="flex items-center">
             <img
-              src="/logo.svg"
+              src="/Design sem nome (1) copy.png"
               alt="AurenX Web"
-              className="h-12 md:h-14 w-auto"
+              className="h-10 md:h-12 w-auto"
             />
           </div>
 
