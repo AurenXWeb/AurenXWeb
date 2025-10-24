@@ -142,9 +142,9 @@ export function Footer() {
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="flex items-center">
             <img
-              src="/ChatGPT_Image_24_de_out._de_2025__13_42_12-removebg-preview.png"
+              src="/ChatGPT_Image_24_de_out._de_2025__13_42_12-removebg-preview copy copy.png"
               alt="AurenX Web"
-              className="h-16 md:h-20 w-auto"
+              className="h-10 md:h-12 w-auto"
             />
           </div>
 
