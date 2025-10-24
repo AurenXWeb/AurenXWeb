@@ -19,7 +19,7 @@ export default function Header() {
           <div className="flex items-center">
             <span className="text-3xl md:text-4xl font-bold">
               <span className="text-[#2D3748]">Auren</span>
-              <span className="text-[#00D4FF]">X</span>
+              <span className="bg-gradient-to-b from-[#00D4FF] to-[#2D3748] bg-clip-text text-transparent">X</span>
               <span className="text-[#00D4FF]">Web</span>
             </span>
           </div>

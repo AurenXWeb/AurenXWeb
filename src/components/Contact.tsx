@@ -143,7 +143,7 @@ export function Footer() {
           <div className="flex items-center">
             <span className="text-3xl md:text-4xl font-bold">
               <span className="text-white">Auren</span>
-              <span className="text-[#00D4FF]">X</span>
+              <span className="bg-gradient-to-b from-[#00D4FF] to-white bg-clip-text text-transparent">X</span>
               <span className="text-[#00D4FF]">Web</span>
             </span>
           </div>
