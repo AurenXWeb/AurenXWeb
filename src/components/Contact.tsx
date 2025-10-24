@@ -37,10 +37,10 @@ export default function Contact() {
     <section id="contato" className="py-20 px-6 bg-gradient-to-br from-white via-[#F0FBFF] to-white">
       <div className="max-w-4xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-[#1C1C1E] mb-6">
-            Vamos <span className="text-[#00CFFF]">conversar?</span>
+          <h2 className="text-4xl md:text-5xl font-bold text-[#2D3748] mb-6">
+            Vamos <span className="text-[#00BCD4]">conversar?</span>
           </h2>
-          <div className="w-20 h-1 bg-gradient-to-r from-[#00CFFF] to-[#0099CC] mx-auto mb-8"></div>
+          <div className="w-20 h-1 bg-gradient-to-r from-[#00BCD4] to-[#0099CC] mx-auto mb-8"></div>
           <p className="text-xl text-gray-600">
             Preencha o formulário ou envie uma mensagem direta pelo Instagram.
           </p>
@@ -51,7 +51,7 @@ export default function Contact() {
             <div>
               <label
                 htmlFor="nome"
-                className="block text-sm font-semibold text-[#1C1C1E] mb-2"
+                className="block text-sm font-semibold text-[#2D3748] mb-2"
               >
                 Nome
               </label>
@@ -62,7 +62,7 @@ export default function Contact() {
                 value={formData.nome}
                 onChange={handleChange}
                 required
-                className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-[#00CFFF] focus:ring-2 focus:ring-[#00CFFF]/20 outline-none transition-all"
+                className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-[#00BCD4] focus:ring-2 focus:ring-[#00BCD4]/20 outline-none transition-all"
                 placeholder="Seu nome completo"
               />
             </div>
@@ -70,7 +70,7 @@ export default function Contact() {
             <div>
               <label
                 htmlFor="email"
-                className="block text-sm font-semibold text-[#1C1C1E] mb-2"
+                className="block text-sm font-semibold text-[#2D3748] mb-2"
               >
                 E-mail
               </label>
@@ -81,7 +81,7 @@ export default function Contact() {
                 value={formData.email}
                 onChange={handleChange}
                 required
-                className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-[#00CFFF] focus:ring-2 focus:ring-[#00CFFF]/20 outline-none transition-all"
+                className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-[#00BCD4] focus:ring-2 focus:ring-[#00BCD4]/20 outline-none transition-all"
                 placeholder="seu@email.com"
               />
             </div>
@@ -89,7 +89,7 @@ export default function Contact() {
             <div>
               <label
                 htmlFor="mensagem"
-                className="block text-sm font-semibold text-[#1C1C1E] mb-2"
+                className="block text-sm font-semibold text-[#2D3748] mb-2"
               >
                 Mensagem
               </label>
@@ -100,7 +100,7 @@ export default function Contact() {
                 onChange={handleChange}
                 required
                 rows={5}
-                className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-[#00CFFF] focus:ring-2 focus:ring-[#00CFFF]/20 outline-none transition-all resize-none"
+                className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-[#00BCD4] focus:ring-2 focus:ring-[#00BCD4]/20 outline-none transition-all resize-none"
                 placeholder="Conte-nos sobre seu projeto..."
               />
             </div>
@@ -114,7 +114,7 @@ export default function Contact() {
             <button
               type="submit"
               disabled={isSubmitting}
-              className="w-full bg-[#00CFFF] text-white px-8 py-4 rounded-lg font-semibold hover:bg-[#00B8E6] transition-all shadow-lg hover:shadow-xl disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2 group"
+              className="w-full bg-[#00BCD4] text-white px-8 py-4 rounded-lg font-semibold hover:bg-[#00B8E6] transition-all shadow-lg hover:shadow-xl disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2 group"
             >
               {isSubmitting ? (
                 'Enviando...'
@@ -137,7 +137,7 @@ export default function Contact() {
 
 export function Footer() {
   return (
-    <footer className="bg-[#1C1C1E] text-white py-12 px-6">
+    <footer className="bg-[#2D3748] text-white py-12 px-6">
       <div className="max-w-7xl mx-auto">
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="flex items-center">
@@ -153,7 +153,7 @@ export function Footer() {
               href="https://instagram.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="hover:text-[#00CFFF] transition-colors"
+              className="hover:text-[#00BCD4] transition-colors"
               aria-label="Instagram"
             >
               <Instagram size={24} />
@@ -162,7 +162,7 @@ export function Footer() {
               href="https://linkedin.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="hover:text-[#00CFFF] transition-colors"
+              className="hover:text-[#00BCD4] transition-colors"
               aria-label="LinkedIn"
             >
               <Linkedin size={24} />
@@ -174,7 +174,7 @@ export function Footer() {
           <p className="text-gray-400">
             © 2025 AurenX Web — Todos os direitos reservados
           </p>
-          <p className="text-[#00CFFF] mt-2 font-medium">
+          <p className="text-[#00BCD4] mt-2 font-medium">
             Transforme sua presença digital com a AurenX Web.
           </p>
         </div>

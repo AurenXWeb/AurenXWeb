@@ -32,10 +32,10 @@ export default function Services() {
     <section id="servicos" className="py-20 px-6 bg-gradient-to-br from-[#F8F9FA] to-white">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-[#1C1C1E] mb-6">
-            Nossos <span className="text-[#00CFFF]">Serviços</span>
+          <h2 className="text-4xl md:text-5xl font-bold text-[#2D3748] mb-6">
+            Nossos <span className="text-[#00BCD4]">Serviços</span>
           </h2>
-          <div className="w-20 h-1 bg-gradient-to-r from-[#00CFFF] to-[#0099CC] mx-auto mb-8"></div>
+          <div className="w-20 h-1 bg-gradient-to-r from-[#00BCD4] to-[#0099CC] mx-auto mb-8"></div>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Soluções completas para transformar sua presença digital
           </p>
@@ -49,10 +49,10 @@ export default function Services() {
                 key={index}
                 className="bg-white p-8 rounded-2xl shadow-lg border border-gray-100 hover:shadow-2xl hover:scale-105 transition-all group"
               >
-                <div className="w-16 h-16 bg-gradient-to-br from-[#00CFFF] to-[#0099CC] rounded-xl flex items-center justify-center mb-6 shadow-md group-hover:scale-110 transition-transform">
+                <div className="w-16 h-16 bg-gradient-to-br from-[#00BCD4] to-[#0099CC] rounded-xl flex items-center justify-center mb-6 shadow-md group-hover:scale-110 transition-transform">
                   <Icon size={32} className="text-white" />
                 </div>
-                <h3 className="text-2xl font-bold text-[#1C1C1E] mb-4">
+                <h3 className="text-2xl font-bold text-[#2D3748] mb-4">
                   {service.title}
                 </h3>
                 <p className="text-gray-600 leading-relaxed">

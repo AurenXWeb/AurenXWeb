@@ -27,31 +27,31 @@ export default function Header() {
           <nav className="hidden md:flex items-center gap-8">
             <button
               onClick={() => scrollToSection('inicio')}
-              className="text-[#1C1C1E] hover:text-[#00CFFF] transition-colors font-medium"
+              className="text-[#2D3748] hover:text-[#00BCD4] transition-colors font-medium"
             >
               Início
             </button>
             <button
               onClick={() => scrollToSection('sobre')}
-              className="text-[#1C1C1E] hover:text-[#00CFFF] transition-colors font-medium"
+              className="text-[#2D3748] hover:text-[#00BCD4] transition-colors font-medium"
             >
               Sobre
             </button>
             <button
               onClick={() => scrollToSection('servicos')}
-              className="text-[#1C1C1E] hover:text-[#00CFFF] transition-colors font-medium"
+              className="text-[#2D3748] hover:text-[#00BCD4] transition-colors font-medium"
             >
               Serviços
             </button>
             <button
               onClick={() => scrollToSection('contato')}
-              className="text-[#1C1C1E] hover:text-[#00CFFF] transition-colors font-medium"
+              className="text-[#2D3748] hover:text-[#00BCD4] transition-colors font-medium"
             >
               Contato
             </button>
             <button
               onClick={() => scrollToSection('contato')}
-              className="bg-[#00CFFF] text-white px-6 py-2.5 rounded-lg font-semibold hover:bg-[#00B8E6] transition-all shadow-md hover:shadow-lg hover:scale-105"
+              className="bg-[#00BCD4] text-white px-6 py-2.5 rounded-lg font-semibold hover:bg-[#00B8E6] transition-all shadow-md hover:shadow-lg hover:scale-105"
             >
               Fale conosco
             </button>
@@ -59,7 +59,7 @@ export default function Header() {
 
           <button
             onClick={() => setIsMenuOpen(!isMenuOpen)}
-            className="md:hidden text-[#1C1C1E]"
+            className="md:hidden text-[#2D3748]"
           >
             {isMenuOpen ? <X size={28} /> : <Menu size={28} />}
           </button>
@@ -69,31 +69,31 @@ export default function Header() {
           <nav className="md:hidden mt-6 pb-4 flex flex-col gap-4 border-t border-gray-200 pt-4">
             <button
               onClick={() => scrollToSection('inicio')}
-              className="text-[#1C1C1E] hover:text-[#00CFFF] transition-colors font-medium text-left"
+              className="text-[#2D3748] hover:text-[#00BCD4] transition-colors font-medium text-left"
             >
               Início
             </button>
             <button
               onClick={() => scrollToSection('sobre')}
-              className="text-[#1C1C1E] hover:text-[#00CFFF] transition-colors font-medium text-left"
+              className="text-[#2D3748] hover:text-[#00BCD4] transition-colors font-medium text-left"
             >
               Sobre
             </button>
             <button
               onClick={() => scrollToSection('servicos')}
-              className="text-[#1C1C1E] hover:text-[#00CFFF] transition-colors font-medium text-left"
+              className="text-[#2D3748] hover:text-[#00BCD4] transition-colors font-medium text-left"
             >
               Serviços
             </button>
             <button
               onClick={() => scrollToSection('contato')}
-              className="text-[#1C1C1E] hover:text-[#00CFFF] transition-colors font-medium text-left"
+              className="text-[#2D3748] hover:text-[#00BCD4] transition-colors font-medium text-left"
             >
               Contato
             </button>
             <button
               onClick={() => scrollToSection('contato')}
-              className="bg-[#00CFFF] text-white px-6 py-2.5 rounded-lg font-semibold hover:bg-[#00B8E6] transition-all shadow-md w-full"
+              className="bg-[#00BCD4] text-white px-6 py-2.5 rounded-lg font-semibold hover:bg-[#00B8E6] transition-all shadow-md w-full"
             >
               Fale conosco
             </button>
