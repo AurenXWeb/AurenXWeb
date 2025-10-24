@@ -20,7 +20,7 @@ export default function Header() {
             <img
               src="/aurenx-logo.png"
               alt="AurenX Web"
-              className="h-10 md:h-12 w-auto"
+              className="h-10 md:h-12 w-auto mix-blend-darken"
             />
 
           </div>
