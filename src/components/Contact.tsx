@@ -21,17 +21,19 @@ export default function Contact() {
             rel="noopener noreferrer"
             className="bg-white rounded-3xl shadow-xl p-8 md:p-10 border border-gray-100 hover:shadow-2xl hover:scale-105 transition-all group"
           >
-            <div className="flex flex-col items-center text-center space-y-4">
+            <div className="flex flex-col items-center text-center space-y-6">
               <div className="w-20 h-20 bg-gradient-to-br from-[#25D366] to-[#128C7E] rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform">
                 <MessageCircle size={40} className="text-white" />
               </div>
-              <h3 className="text-2xl font-bold text-[#2D3748]">WhatsApp</h3>
-              <p className="text-gray-600">
-                Fale diretamente conosco pelo WhatsApp
-              </p>
-              <p className="text-lg font-semibold text-[#00BCD4]">
-                +55 11 95369-5307
-              </p>
+              <div>
+                <h3 className="text-2xl font-bold text-[#2D3748] mb-3">WhatsApp</h3>
+                <p className="text-gray-600 text-lg">
+                  Fale diretamente conosco pelo WhatsApp
+                </p>
+              </div>
+              <span className="text-[#00BCD4] font-semibold group-hover:underline">
+                Enviar mensagem
+              </span>
             </div>
           </a>
 
@@ -39,17 +41,19 @@ export default function Contact() {
             href="mailto:aurenxweb@gmail.com"
             className="bg-white rounded-3xl shadow-xl p-8 md:p-10 border border-gray-100 hover:shadow-2xl hover:scale-105 transition-all group"
           >
-            <div className="flex flex-col items-center text-center space-y-4">
+            <div className="flex flex-col items-center text-center space-y-6">
               <div className="w-20 h-20 bg-gradient-to-br from-[#00BCD4] to-[#0099CC] rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform">
                 <Mail size={40} className="text-white" />
               </div>
-              <h3 className="text-2xl font-bold text-[#2D3748]">E-mail</h3>
-              <p className="text-gray-600">
-                Envie um e-mail e responderemos em breve
-              </p>
-              <p className="text-lg font-semibold text-[#00BCD4]">
-                aurenxweb@gmail.com
-              </p>
+              <div>
+                <h3 className="text-2xl font-bold text-[#2D3748] mb-3">E-mail</h3>
+                <p className="text-gray-600 text-lg">
+                  Envie um e-mail e responderemos em breve
+                </p>
+              </div>
+              <span className="text-[#00BCD4] font-semibold group-hover:underline">
+                Enviar e-mail
+              </span>
             </div>
           </a>
         </div>
