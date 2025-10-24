@@ -1,4 +1,4 @@
-import { Instagram, Mail, MessageCircle } from 'lucide-react';
+import { Instagram, Mail, MessageCircle, Github } from 'lucide-react';
 
 export default function Contact() {
   return (
@@ -14,7 +14,7 @@ export default function Contact() {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-6">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
           <a
             href="https://wa.me/5511953695307"
             target="_blank"
@@ -75,6 +75,28 @@ export default function Contact() {
               </div>
               <span className="text-[#00BCD4] font-semibold group-hover:underline">
                 Acessar perfil
+              </span>
+            </div>
+          </a>
+
+          <a
+            href="https://github.com/AurenXWeb"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-white rounded-3xl shadow-xl p-8 md:p-10 border border-gray-100 hover:shadow-2xl hover:scale-105 transition-all group"
+          >
+            <div className="flex flex-col items-center text-center space-y-6">
+              <div className="w-20 h-20 bg-gradient-to-br from-[#2D3748] to-[#1a202c] rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform">
+                <Github size={40} className="text-white" />
+              </div>
+              <div>
+                <h3 className="text-2xl font-bold text-[#2D3748] mb-3">GitHub</h3>
+                <p className="text-gray-600 text-lg">
+                  Confira nossos projetos open source
+                </p>
+              </div>
+              <span className="text-[#00BCD4] font-semibold group-hover:underline">
+                Ver repositórios
               </span>
             </div>
           </a>
