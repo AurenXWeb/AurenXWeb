@@ -141,8 +141,10 @@ export function Footer() {
       <div className="max-w-7xl mx-auto">
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="flex items-center gap-2">
-            <div className="w-10 h-10 bg-gradient-to-br from-[#00CFFF] to-[#0099CC] rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-xl">A</span>
+            <div className="relative w-10 h-10">
+              <div className="absolute inset-0 bg-gradient-to-br from-[#00CFFF] to-[#0099CC] rounded-lg rotate-45"></div>
+              <div className="absolute inset-1 bg-white rounded-lg rotate-45"></div>
+              <div className="absolute inset-2 bg-gradient-to-br from-[#00CFFF] to-[#0099CC] rounded-sm rotate-45"></div>
             </div>
             <span className="text-2xl font-bold">
               AurenX <span className="text-[#00CFFF]">Web</span>
