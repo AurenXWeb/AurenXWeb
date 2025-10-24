@@ -16,15 +16,12 @@ export default function Header() {
     <header className="fixed top-0 left-0 right-0 bg-white/95 backdrop-blur-sm z-50 shadow-sm">
       <div className="max-w-7xl mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
-          <div className="flex items-center gap-2">
-            <div className="relative w-10 h-10">
-              <div className="absolute inset-0 bg-gradient-to-br from-[#00CFFF] to-[#0099CC] rounded-lg rotate-45"></div>
-              <div className="absolute inset-1 bg-white rounded-lg rotate-45"></div>
-              <div className="absolute inset-2 bg-gradient-to-br from-[#00CFFF] to-[#0099CC] rounded-sm rotate-45"></div>
-            </div>
-            <span className="text-2xl font-bold text-[#1C1C1E]">
-              AurenX <span className="text-[#00CFFF]">Web</span>
-            </span>
+          <div className="flex items-center">
+            <img
+              src="/ChatGPT_Image_24_de_out._de_2025__13_42_12-removebg-preview.png"
+              alt="AurenX Web"
+              className="h-12 w-auto"
+            />
           </div>
 
           <nav className="hidden md:flex items-center gap-8">
