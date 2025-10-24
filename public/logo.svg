@@ -1,0 +1,21 @@
+<svg width="200" height="60" viewBox="0 0 200 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00CFFF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0099CC;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Icon -->
+  <rect x="2" y="10" width="40" height="40" rx="8" fill="url(#logoGradient)"/>
+  <path d="M22 18L32 30L22 42" stroke="#1C1C1E" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M12 30H28" stroke="#1C1C1E" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Text -->
+  <text x="52" y="38" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#1C1C1E">
+    Auren<tspan fill="#00CFFF">X</tspan>
+  </text>
+  <text x="140" y="38" font-family="Arial, sans-serif" font-size="20" font-weight="300" fill="#1C1C1E">
+    Web
+  </text>
+</svg>
