@@ -141,14 +141,11 @@ export function Footer() {
       <div className="max-w-7xl mx-auto">
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="flex items-center">
-            <span className="text-3xl md:text-4xl font-bold flex items-center">
-              <span className="text-white">Auren</span>
-              <span className="relative inline-block w-8 h-10">
-                <span className="absolute inset-0 text-[#00D4FF]" style={{ WebkitTextStroke: '2px #00D4FF' }}>\</span>
-                <span className="absolute inset-0 text-white" style={{ WebkitTextStroke: '2px white' }}>/</span>
-              </span>
-              <span className="text-[#00D4FF]">Web</span>
-            </span>
+            <img
+              src="/ChatGPT_Image_24_de_out._de_2025__13_42_12-removebg-preview.png"
+              alt="AurenX Web"
+              className="h-16 md:h-20 w-auto"
+            />
           </div>
 
           <div className="flex items-center gap-6">
