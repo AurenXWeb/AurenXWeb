@@ -11,43 +11,43 @@ export default function Hero() {
   return (
     <section
       id="inicio"
-      className="pt-32 pb-20 px-6 bg-gradient-to-br from-white via-[#F0FBFF] to-white overflow-hidden relative"
+      className="pt-24 md:pt-32 pb-12 md:pb-20 px-4 md:px-6 bg-gradient-to-br from-white via-[#F0FBFF] to-white overflow-hidden relative min-h-[calc(100vh-80px)]"
     >
-      <div className="absolute top-20 right-10 w-72 h-72 bg-[#00BCD4]/10 rounded-full blur-3xl"></div>
-      <div className="absolute bottom-10 left-10 w-96 h-96 bg-[#00BCD4]/5 rounded-full blur-3xl"></div>
+      <div className="absolute top-20 right-10 w-48 md:w-72 h-48 md:h-72 bg-[#00BCD4]/10 rounded-full blur-3xl"></div>
+      <div className="absolute bottom-10 left-10 w-64 md:w-96 h-64 md:h-96 bg-[#00BCD4]/5 rounded-full blur-3xl"></div>
 
       <div className="max-w-7xl mx-auto relative z-10">
-        <div className="grid md:grid-cols-2 gap-12 items-center">
-          <div className="space-y-8 animate-fade-in">
-            <div className="inline-flex items-center gap-2 bg-white/80 backdrop-blur-sm px-4 py-2 rounded-full border border-[#00BCD4]/20 shadow-sm">
-              <Sparkles size={16} className="text-[#00BCD4]" />
-              <span className="text-sm font-medium text-[#2D3748]">
+        <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center">
+          <div className="space-y-6 md:space-y-8 animate-fade-in">
+            <div className="inline-flex items-center gap-2 bg-white/80 backdrop-blur-sm px-3 md:px-4 py-2 rounded-full border border-[#00BCD4]/20 shadow-sm">
+              <Sparkles size={14} className="text-[#00BCD4] md:w-4 md:h-4" />
+              <span className="text-xs md:text-sm font-medium text-[#2D3748]">
                 Desenvolvimento web moderno
               </span>
             </div>
 
-            <h1 className="text-5xl md:text-6xl font-bold text-[#2D3748] leading-tight">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-[#2D3748] leading-tight">
               Transformamos ideias em{' '}
               <span className="text-[#00BCD4]">experiências digitais</span>.
             </h1>
 
-            <p className="text-xl text-gray-600 leading-relaxed">
+            <p className="text-base md:text-lg lg:text-xl text-gray-600 leading-relaxed">
               Desenvolvimento web moderno, rápido e inteligente.
             </p>
 
             <button
               onClick={scrollToContact}
-              className="inline-flex items-center gap-2 bg-[#00BCD4] text-white px-8 py-4 rounded-lg font-semibold hover:bg-[#00B8E6] transition-all shadow-lg hover:shadow-xl hover:scale-105 group"
+              className="inline-flex items-center gap-2 bg-[#00BCD4] text-white px-6 md:px-8 py-3 md:py-4 rounded-lg font-semibold hover:bg-[#00B8E6] transition-all shadow-lg hover:shadow-xl hover:scale-105 group text-sm md:text-base"
             >
               Solicitar orçamento
               <ArrowRight
-                size={20}
-                className="group-hover:translate-x-1 transition-transform"
+                size={18}
+                className="group-hover:translate-x-1 transition-transform md:w-5 md:h-5"
               />
             </button>
           </div>
 
-          <div className="relative">
+          <div className="relative hidden md:block">
             <div className="absolute inset-0 bg-gradient-to-tr from-[#00BCD4]/20 to-transparent rounded-3xl blur-2xl"></div>
             <div className="relative bg-white/50 backdrop-blur-sm p-8 rounded-3xl border border-[#00BCD4]/20 shadow-xl">
               <div className="space-y-4">
