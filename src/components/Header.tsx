@@ -21,6 +21,10 @@ export default function Header() {
               src="/ChatGPT_Image_24_de_out._de_2025__13_42_12-removebg-preview copy copy.png"
               alt="AurenX Web"
               className="h-10 md:h-12 w-auto"
+              style={{
+                filter: 'contrast(1.15) saturate(1.3) brightness(1.05)',
+                imageRendering: 'crisp-edges'
+              }}
             />
           </div>
 
