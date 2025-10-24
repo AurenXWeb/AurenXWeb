@@ -141,9 +141,12 @@ export function Footer() {
       <div className="max-w-7xl mx-auto">
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="flex items-center">
-            <span className="text-3xl md:text-4xl font-bold">
+            <span className="text-3xl md:text-4xl font-bold flex items-center">
               <span className="text-white">Auren</span>
-              <span className="bg-gradient-to-b from-[#00D4FF] to-white bg-clip-text text-transparent">X</span>
+              <span className="relative inline-block w-8 h-10">
+                <span className="absolute inset-0 text-[#00D4FF]" style={{ WebkitTextStroke: '2px #00D4FF' }}>\</span>
+                <span className="absolute inset-0 text-white" style={{ WebkitTextStroke: '2px white' }}>/</span>
+              </span>
               <span className="text-[#00D4FF]">Web</span>
             </span>
           </div>
